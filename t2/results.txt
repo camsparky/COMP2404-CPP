@@ -1,0 +1,35 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Running: ./p1
+
+Enter a Name for the Fighter: Enter The Max Health for the Fighter: Enter the Damage for the Fighter: Enter a Name for the Orc: Enter The Max Health for the Orc: Enter the Damage for the Orc: Thor's Health: 10
+Snarl's Health: 12
+Thor Hits Snarl for 4 Damage
+Snarl Hits Thor for 1 Damage
+Thor's Health: 9
+Snarl's Health: 8
+Thor Hits Snarl for 2 Damage
+Snarl Hits Thor for 3 Damage
+Thor's Health: 6
+Snarl's Health: 6
+
+Thor found,  2  marks
+Snarl found,  2  marks
+10 found,  2  marks
+12 found,  2  marks
+8 found,  2  marks
+9 found,  2  marks
+6 found,  2  marks
+
+
+***************************************************************************
+* Mark: 14/14
+***************************************************************************
+

@@ -1,0 +1,59 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing stack object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+
+'Episode' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing stack pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+
+'Episode' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+
+'Episode' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+Episode-> Podcast: N/A Number: 0 Name: N/A Content: N/A
+
+'Episode' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+
+***************************************************************************
+* Mark: 16/16
+***************************************************************************
+

@@ -1,0 +1,38 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing Podcast class
+
+Executing: ./test
+Poscast-> Title: Dogs Host: Irene # of Episodes: 5
+~Episodes~
+Episode-> Podcast: Dogs Number: 0 Name: Episode Title: 0 Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
+Episode-> Podcast: Dogs Number: 1 Name: Episode Title: 1 Content: Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed...
+Dogs found, 2 marks
+Episode Title: 3 found, 2 marks
+
+Testing Podcast destructor
+
+Executing: valgrind ./test
+
+All heap blocks were freed -- no leaks are possible found, 2 marks
+
+Testing Podcast deep copy
+
+Executing: ./test
+Poscast-> Title: Cats Host: Bob # of Episodes: 5
+~Episodes~
+Episode-> Podcast: Cats Number: 0 Name: Episode Title: 5 Content: Aenean lectus elit, fermentum non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula. Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer risus et tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+Episode-> Podcast: Cats Number: 1 Name: Episode Title: 6 Content: Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Se...
+Cats found, 2 marks
+Vestibulum sapien found, 2 marks
+
+
+***************************************************************************
+* Mark: 10/10
+***************************************************************************
+
